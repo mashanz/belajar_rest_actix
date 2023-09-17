@@ -1,0 +1,17 @@
+[package]
+name = "belajar_rest_actix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "*"
+actix-web = "*"
+serde = "*"
+serde_json = "*"
+diesel = "*"
+diesel-async = "*"
+tokio = "*"
+reqwest = "*"
+aws-sdk-s3 = "*"
